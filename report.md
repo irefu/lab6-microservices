@@ -39,7 +39,7 @@ I added a line in settings.gradle.
 We can see if we kill the microservice with port 2222 now it doesn't appear in Eureka dashboard:
 ![accounts killed dashboard](images/dashboard3.png)
 
-The web service can provide information abour accounts as we can see:
+The web service can provide information about accounts as we can see:
 ![accounts service is ok](images/service_is_ok.png)
 
 Accounts service in port 2222 was killed, but accounts service in port 4444 is alive so the web service provides information about accounts using that service.
